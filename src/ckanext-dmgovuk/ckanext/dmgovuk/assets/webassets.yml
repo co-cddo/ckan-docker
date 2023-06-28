@@ -1,0 +1,14 @@
+# dmgovuk-js:
+#   filter: rjsmin
+#   output: ckanext-dmgovuk/%(version)s-dmgovuk.js
+#   contents:
+#     - js/dmgovuk.js
+#   extra:
+#     preload:
+#       - base/main
+
+# dmgovuk-css:
+#   filter: cssrewrite
+#   output: ckanext-dmgovuk/%(version)s-dmgovuk.css
+#   contents:
+#     - css/dmgovuk.css
